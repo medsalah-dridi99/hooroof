@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hooroof/static/css/main.e6c13ad2.css",
+    "main.js": "/hooroof/static/js/main.6a809e85.js",
+    "static/js/453.bbbb8145.chunk.js": "/hooroof/static/js/453.bbbb8145.chunk.js",
+    "static/media/image.png": "/hooroof/static/media/image.307cb3a8ac8794e8ab36.png",
+    "index.html": "/hooroof/index.html",
+    "main.e6c13ad2.css.map": "/hooroof/static/css/main.e6c13ad2.css.map",
+    "main.6a809e85.js.map": "/hooroof/static/js/main.6a809e85.js.map",
+    "453.bbbb8145.chunk.js.map": "/hooroof/static/js/453.bbbb8145.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.6a809e85.js"
+  ]
+}
