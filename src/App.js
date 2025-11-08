@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Route, Switch } from "wouter";
+import FileUploadExcel from "./Components/FileUploadExcel";
+import GameRow from "./Components/GameCell";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Switch>
+      <Route path="/">
+        <FileUploadExcel />
+      </Route>
+
+      <Route path="/gamerow">
+        <GameRow />
+      </Route>
+
+      {/* باش لمن يهبّط على رابط موش موجود */}
+      <Route>
+        <div style={{ padding: 20, color: "red", textAlign: "center" }}>
+          Page not found
+        </div>
+      </Route>
+    </Switch>
   );
-}
+};
 
 export default App;
