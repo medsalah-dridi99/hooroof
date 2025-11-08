@@ -6,7 +6,7 @@ import GameRow from "./Components/GameCell";
 const App = () => {
   return (
     <Switch>
-      <Route path="/">
+      <Route path="/hooroof">
         <FileUploadExcel />
       </Route>
 
