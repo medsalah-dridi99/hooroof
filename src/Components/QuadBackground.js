@@ -4,7 +4,7 @@ import { Box } from "@mui/material";
 const QuadBackground = () => (
   <Box
     sx={{
-      width: 800,
+      width: 1000,
       height: 600,
       position: "relative",
     borderTopRightRadius: 30,
